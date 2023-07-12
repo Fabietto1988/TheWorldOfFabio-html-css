@@ -4,6 +4,7 @@
     <meta charset='UTF-8'/>
     <title>Contacts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> 
   <style>
      body {
             background-image: url('ccc.jpg');
@@ -23,15 +24,76 @@
         
     }
 
+    #social-bar {
+    position: fixed;
+    top:0;  
+    bottom:0;
+    margin:auto;
+    right:0;
+    height:-webkit-fit-content;
+    height:-moz-fit-content;
+    height:fit-content;
+}
+
+#social-bar a {
+    display: block;
+    text-align: center;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding:15px;
+
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+}
+
+#social-bar a:hover {
+    opacity:0.8;
+}
+
+.facebook {
+    background: #3B5998;
+}
+
+.twitter {
+    background: #55ACEE;
+
+}
+
+.linkedin {
+    background: #3985DD;
+
+}
+
+.instagram {
+    background: #dd2a7b;
+
+}
+
+.github {
+    background: black;
+
+}
+
 
   </style>  
 </head>
 <body>
+    <div id="social-bar">
+        <a href="https://www.facebook.com/fabio.anfuso.5"class="facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/_fabioanfuso_/"class="instagram"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/AnfusoFabio1988"class="twitter"> <i class="fa-brands fa-twitter"></i></a>
+        <a href="https://github.com/Fabietto1988/TheWorldOfFabio-html-css/tree/main"class="github"> <i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/fabio-anfuso-4005a996/"class="linkedin"> <i class="fa-brands fa-linkedin"></i></a>
+    </div>
 
 <h1>Contacts</h1>
 <p>Fabio Anfuso </p>
 <p>Whatapp +393405493607</p>
 <p>Mail: Fabioanfuso.kite@gmail.com</p>
+
+
 
 </body>
 </html>
